@@ -1,0 +1,387 @@
+.header {
+  height: 90px;
+}
+
+.mod_profile {
+  background: url(../img/yjs.png);
+  padding-top: 65px;
+  height: 316px;
+  text-align: center;
+}
+
+.section_inner {
+  position: relative;
+  height: 315px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.profile__cover_link {
+  width: 102px;
+  height: 102px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.profile__cover_link img {
+  width: 102px;
+  border: 4px white solid;
+  border-radius: 50%;
+}
+
+.profile__tit {
+  margin: 0;
+  padding: 0;
+  height: 64px;
+  text-align: center;
+}
+
+.profile__name {
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 64px;
+  margin-right: 4px;
+}
+
+.mod_user_statistic {
+
+  color: #fff;
+}
+
+
+
+.mod_user_statistic a {
+  color: #fff;
+
+}
+
+.user_statistic__number {
+  display: block;
+  font-size: 22px;
+  line-height: 24px;
+  margin-top: -1px;
+  font-weight: 400;
+}
+
+.mod_user_statistic a:hover .user_statistic__number {
+  color: #31c27c;
+}
+
+.fens {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  color: #fff;
+}
+
+.fens a {
+  color: #fff;
+}
+
+.sp1 {
+  font-size: 20px;
+}
+
+.sp1:hover {
+  color: #31c27c;
+}
+
+.sp2 {
+  font-size: 20px;
+}
+
+.sp2:hover {
+  color: #31c27c;
+}
+
+.lii {
+  border-right: 1px solid #1d1f21;
+  text-align: center;
+  padding: 0 25px;
+}
+
+.liu {
+  text-align: center;
+  padding: 0 25px;
+}
+
+.mod_nav {
+  position: absolute;
+  bottom: 0;
+}
+
+.mod_nav a {
+  color: #fff;
+  line-height: 50px;
+  font-size: 16px;
+  margin-right: 30px;
+}
+
+.mod_nav :nth-child(1) {
+  height: 50px;
+  color: #31c27c;
+  font-size: 16px;
+  margin-right: 30px;
+}
+
+.mod_nav a:hover {
+  color: #31c27c;
+
+}
+
+.main_il {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.mod_nav2 {
+  height: 57px;
+  line-height: 57px;
+  height: 50px;
+}
+
+.mod_nav2 a {
+  height: 50px;
+  font-size: 16px;
+  margin-right: 30px;
+}
+
+.mod_nav2 :nth-child(1) {
+  height: 50px;
+  color: #31c27c;
+  font-size: 16px;
+  margin-right: 30px;
+}
+
+
+.mod-btn {
+  width: 656px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
+.green-btn {
+  border: none;
+  border-radius: 1px;
+  background: #22ae6a;
+  color: white;
+  cursor: pointer;
+  width: 122px;
+  height: 38px;
+}
+
+.green-btn:hover {
+  background: #179e5c;
+}
+
+.btn-2 {
+  border: 1px solid rgb(181, 176, 176);
+  cursor: pointer;
+  border-radius: 1px;
+  background: #fff;
+  color: rgb(14, 14, 14);
+  width: 122px;
+  height: 38px;
+}
+
+.btn-2:hover {
+  background: #eeecec;
+}
+
+.lists {
+  background: rgb(246, 246, 246);
+  margin-bottom: 30px;
+}
+
+.slistH {
+  position: relative;
+  padding-left: 46px;
+  padding-right: 95px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+  color: #999;
+  background: #fff;
+}
+
+.slistH :nth-child(1) {
+  width: 47%;
+  float: left;
+}
+
+.slistH :nth-child(2) {
+  width: 25%;
+  float: left;
+}
+
+.slistH :nth-child(3) {
+  width: 25%;
+  float: left;
+}
+
+.slistH :nth-child(4) {
+  right: 30px;
+  width: 50px;
+  position: absolute;
+}
+
+
+.songlist {
+
+  padding-left: 46px;
+  padding-right: 95px;
+  position: relative;
+  height: 50px;
+  font-size: 14px;
+  line-height: 50px;
+}
+
+.songlist_c1 {
+  font-size: 14px;
+  color: #999;
+  width: 36px;
+  position: absolute;
+  left: 10px;
+  float: left;
+}
+
+.songlist li:nth-child(2) {
+  width: 47%;
+  float: left;
+}
+
+.songlist li:nth-child(3) {
+  width: 25%;
+  float: left;
+}
+
+.songlist li:nth-child(4) {
+  width: 25%;
+  float: left;
+}
+
+.songlist li:nth-child(5) {
+  font-size: 14px;
+  color: #999;
+  right: 30px;
+  width: 50px;
+  position: absolute;
+}
+
+.lo_1 {
+  position: relative;
+}
+
+.img22 {
+  width: 15px;
+  position: absolute;
+  right: -3px;
+  bottom: 23px;
+}
+
+.img11 {
+  margin-top: 22px;
+  border-radius: 50%;
+  width: 40px;
+}
+
+.page_box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.page_box p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.page_box a {
+  display: block;
+  color: #fff;
+  width: 175px;
+  height: 41px;
+  margin: 0 auto;
+  line-height: 41px;
+  border-radius: 30px;
+  background: #31c27c;
+}
+
+.page_box a:hover {
+  color: #fff;
+  background: #19ab64
+}
+
+.minid {
+  width: 26px;
+}
+
+.minidelete {
+  width: 20px;
+}
+
+.lop {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-align: center;
+  line-height: 50px;
+  height: 35px;
+  float: left;
+  width: 35px;
+  border: 1px #999 solid;
+  border-radius: 50%;
+}
+
+.lop2 {
+  cursor: pointer;
+  margin-top: 5px;
+  text-align: center;
+  height: 35px;
+  float: left;
+  width: 35px;
+  border: 1px #999 solid;
+  border-radius: 50%;
+  background: url(../img/delete.png) no-repeat 6px 5px;
+  background-size: 23px 23px;
+}
+
+.lop2:hover {
+  margin-top: 5px;
+  text-align: center;
+  height: 35px;
+  float: left;
+  width: 35px;
+  border: 1px #31c27c solid;
+  border-radius: 50%;
+  background: url(../img/delete2.png) no-repeat 6px 5px;
+  background-size: 23px 23px;
+}
+
+.opreta {
+  display: none;
+  top: 0;
+  position: absolute;
+  left: 340px;
+
+}
+
+.mv {
+  cursor: pointer;
+  margin-bottom: -4px;
+  width: 40px;
+  height: 17px;
+  display: inline-block;
+  background: url(../img/jingling.png)no-repeat -40px -279px;
+}
+
+.vip {
+  margin-bottom: -4px;
+  width: 40px;
+  height: 17px;
+  display: inline-block;
+  background: url(../img/jingling.png)no-repeat -80px -159px;
+}

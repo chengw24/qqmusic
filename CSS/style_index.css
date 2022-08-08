@@ -1,0 +1,588 @@
+.mm {
+  top: 0;
+  height: 100%;
+  position: relative;
+  background: url(../img/index/bg_detail.bb32b2d1.webp)no-repeat;
+  overflow: hidden;
+}
+
+.mm2 {
+  top: 0;
+  height: 100%;
+  position: relative;
+  background: url(../img/index/bg_detail.bb32b2d1.webp)no-repeat;
+  overflow: hidden;
+}
+
+.mm a {
+  cursor: pointer;
+}
+
+.btn_left {
+  transition: all 0.5s;
+  transform: translate(-100%, -50%);
+  background: rgb(235, 234, 234);
+  width: 79px;
+  height: 108px;
+  line-height: 108px;
+  text-align: center;
+  position: absolute;
+  font-size: 60px;
+  left: 0;
+  top: 50%;
+}
+
+.btn_left:hover {
+  background: rgb(216, 216, 216);
+}
+
+.btn_right:hover {
+  background: rgb(216, 216, 216);
+}
+
+.cvd {
+  width: 50px;
+}
+
+.btn_right {
+  transition: all 0.5s;
+  background: rgb(235, 234, 234);
+  text-align: center;
+  width: 79px;
+  height: 108px;
+  line-height: 108px;
+  position: absolute;
+  font-size: 60px;
+  transform: translate(100%, -50%);
+  right: 0px;
+  top: 50%;
+}
+
+.index_hot {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.index-hd {
+  padding-top: 4.16667%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+  width: 196px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.index-tab {
+  position: relative;
+  height: 50px;
+  text-align: center;
+}
+
+.index_tab__item {
+  display: inline-block;
+  font-size: 15px;
+  margin: 0 24px;
+  color: #333;
+}
+
+.index_tab__item_current {
+  display: inline-block;
+  font-size: 15px;
+  margin: 0 24px;
+  color: #31c27c;
+}
+
+.playlist {
+  overflow: hidden;
+  font-size: 14px;
+  height: 310px;
+  margin-bottom: 10px;
+}
+
+.longwidth {
+  transition: all 0.5s;
+  width: 1250%;
+}
+
+.playlist p {
+  color: #999;
+}
+
+.bbb {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0;
+}
+
+.himg {
+  margin-bottom: 10px;
+  position: relative;
+  cursor: pointer;
+  width: 224px;
+  height: 224px;
+  overflow: hidden;
+}
+
+.kimg {
+  transition: all 0.75s;
+  width: 224px;
+}
+
+.play3 {
+  transition: all 0.75s;
+  opacity: 0;
+  width: 50px;
+  position: absolute;
+  left: 40%;
+  top: 40%;
+}
+
+.playlist-1 {
+  float: left;
+  width: 1220px;
+}
+
+.playlist-1 li {
+  width: 224px;
+  float: left;
+  margin-right: 20px;
+  height: 310px;
+}
+
+.switch {
+
+  display: flex;
+  justify-content: center;
+  height: 38px;
+
+}
+
+.sdiv {
+  margin-left: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgb(204, 203, 205);
+}
+
+.current-one {
+  margin-left: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgb(110, 109, 111);
+}
+
+.sdiv:hover {
+  background: rgb(110, 109, 111);
+}
+
+.index_song {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.index_event {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.index_album {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.index_top {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.index_mv {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.tab-play {
+  font-size: 14px;
+  line-height: 38px;
+  width: 123px;
+  height: 38px;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: 2px;
+}
+
+.tab-play :hover {
+  color: #000;
+}
+
+.slidelist {
+  width: 1220px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+
+.slidelist-1 {
+  width: 1220px;
+  float: left;
+}
+
+.slidelist-1 li {
+  width: 33.3%;
+  height: 111px;
+  float: left;
+}
+
+.slidelist-1 img {
+  width: 86px;
+  height: 86px;
+}
+
+.slidelist-1 .himg {
+  float: left;
+  width: 86px;
+  height: 86px;
+
+  margin-right: 15px;
+}
+
+.slidelist-1 .play3 {
+
+  width: 36px;
+  height: 36px;
+  top: 30%;
+  left: 30%;
+}
+
+.slide-songer {
+  position: relative;
+  height: 86px;
+  overflow: hidden;
+  border-top: 1px solid #f2f2f2;
+  margin: -1px 30px 13px 0;
+  padding-top: 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.slide-songer p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  line-height: 86px;
+  color: #999;
+}
+
+.songers {
+  height: 65px;
+}
+
+.songers>div {
+  margin-top: 28px;
+}
+
+.eventlist {
+  width: 1220px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.eventlist-1 li {
+  float: left;
+  width: 610px;
+  height: 236px;
+
+}
+
+.eventlist img {
+  width: 590px;
+  height: 236px;
+}
+
+.index_tab__item_more {
+  float: right;
+}
+
+.albumlist {
+  overflow: hidden;
+  width: 1220px;
+  height: 616px;
+}
+
+.albumlist-1 {
+  width: 1220px;
+  height: 620px;
+  float: left;
+}
+
+.albumlist-1 li {
+  width: 20%;
+  padding-bottom: 25px;
+  float: left;
+}
+
+.cpdd {
+  margin-top: 15px;
+}
+
+.index_hd {
+
+  position: relative;
+}
+
+.index_hd_more {
+  position: absolute;
+  right: 0;
+  top: 61px;
+}
+
+.toplist-1 {
+  overflow: hidden;
+  width: 1220px;
+}
+
+.toplist-1>li {
+  float: left;
+  width: 20%;
+  height: 500px;
+  position: relative;
+
+}
+
+.backg {
+  transition: all 0.5s;
+  cursor: pointer;
+  overflow: hidden;
+  width: 224px;
+  height: 550px;
+  background: url(../img/index/top.webp);
+}
+
+.backg2 {
+  transition: all 0.5s;
+  cursor: pointer;
+  overflow: hidden;
+  width: 224px;
+  height: 550px;
+  background: url(../img/index/top.webp)no-repeat -224px 0;
+}
+
+.backg3 {
+  transition: all 0.5s;
+  cursor: pointer;
+  overflow: hidden;
+  width: 224px;
+  height: 550px;
+  background: url(../img/index/top.webp)no-repeat -448px 0;
+}
+
+.backg4 {
+  transition: all 0.5s;
+  cursor: pointer;
+  overflow: hidden;
+  width: 224px;
+  height: 550px;
+  background: url(../img/index/top.webp)no-repeat -672px 0;
+}
+
+.klkl {
+  width: 224px;
+  height: 550px;
+  overflow: hidden;
+}
+
+.top_himg {
+  width: 50px;
+  height: 50px;
+  top: 130px;
+  left: 35%;
+  position: absolute;
+}
+
+.fwfw {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.hgg {
+  width: 50px;
+  height: 50px;
+}
+
+.play1 {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  transition: all 0.5s;
+  opacity: 0;
+  width: 25px;
+  height: 25px;
+}
+
+.toplist-1 :hover .play1 {
+  transform: scale(2.0);
+  opacity: 1;
+}
+
+.toplist-1 :hover .backg {
+  transform: scale(1.1);
+}
+
+.toplist-1 :hover .backg2 {
+  transform: scale(1.1);
+}
+
+.toplist-1 :hover .backg3 {
+  transform: scale(1.1);
+}
+
+.toplist-1 :hover .backg4 {
+  transform: scale(1.1);
+}
+
+.backg :hover .top_himg img {
+  opacity: 1;
+  transform: scale(1) translateZ(0);
+  transition-property: opacity, transform;
+  transition-duration: .5s;
+  cursor: pointer;
+}
+
+.fg {
+  font-size: 20px;
+  color: #f2f2f2;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 32%;
+}
+
+.fg a {
+  color: white;
+  font-size: 24px;
+}
+
+.hj {
+  color: #fff;
+  font-size: 14px;
+  position: absolute;
+  top: 188px;
+  left: 30px;
+  right: 30px;
+  white-space: nowrap;
+}
+
+.toplist__number {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.toplist__songname {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.toplist__song a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.toplist__song {
+  position: relative;
+  padding-left: 15px;
+  margin-bottom: 27px;
+}
+
+.MVlist {
+  font-size: 14px;
+  width: 1200px;
+  height: 463.33px;
+  overflow: hidden;
+}
+
+.MVlist-1 {
+  width: 1220px;
+  float: left;
+}
+
+.MVlist-1 li {
+  float: left;
+  width: 20%;
+  padding-bottom: 25px;
+}
+
+.MVlist-1 .kimg {
+  width: 224px;
+  height: 126.66px;
+}
+
+.MVlist-1 .play3 {
+  top: 30px;
+  left: 80px;
+  width: 60px;
+  height: 60px;
+}
+
+.MVlist-1 .himg {
+  width: 224px;
+  height: 126.66px;
+}
+
+.bbc {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0;
+}
+
+.MVlist-1 .himg:hover .bbc {
+  opacity: 0.2;
+}
+
+.songername {
+  color: #999;
+}
+
+.cpdd span {
+  color: #999;
+}
+
+.cpdd {
+  font-size: 14px;
+}
+
+.cpdd .minip {
+  width: 25px;
+  margin-bottom: -8px;
+}

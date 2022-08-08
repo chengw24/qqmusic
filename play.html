@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="CSS/style_play.css">
+  <link rel="stylesheet" href="./font_3530211_3471xdtcu5v/iconfont.css">
+</head>
+
+<body style="background-color: rgb(95, 157, 156);">
+  <div class="app">
+    <div class="bg_player_mask"></div>
+    <div class="bg_player"
+      style="display: block; background-image: url(img/ss1.webp); background-color: rgb(255, 255, 255);">
+    </div>
+    <div class="herder">
+      <a href="index.html" class="logo"><img src="img/player_logo.png" alt=""></a>
+      <div id="opt" class="opt">
+        <a class="lo_1" href="#"><img class="img11"
+            src="http://thirdqq.qlogo.cn/g?b=sdk&amp;k=z4J9WiaXWkfjnReWIGSPCQw&amp;s=140&amp;t=1637080860" alt=""><img
+            class="img22" src="img/login_qq.png" alt=""></a>
+        <a href="#">纸上的彩虹</a>
+        <a href="#">设置</a>
+        <a id="jub" href="#" style="display: none;">退出</a>
+      </div>
+    </div>
+    <div class="main">
+      <div class="play_bd">
+        <div class="list">
+          <div class="mod-btn">
+            <a class="btn-2">
+              <span class="iconfont icon-aixin"></span>
+              收藏
+            </a>
+            <a class="btn-2">
+              <span class="iconfont icon-tianjia"></span>
+              添加到
+            </a>
+            <a class="btn-2">
+              <span class="iconfont icon-xiazai"></span>
+              下载
+            </a>
+            <a class="btn-2">
+              <span class="iconfont icon-shanchu"></span>
+              删除
+            </a>
+            <a class="btn-2">
+              <span class="iconfont icon-qingkong"></span>
+              清空列表
+            </a>
+          </div>
+
+          <div class="lists">
+            <div class="songlist_header">
+              <ul class="slistH">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li>歌曲</li>
+                <li>歌手</li>
+                <li>时长</li>
+              </ul>
+            </div>
+            <div id="go" class="go">
+              <ul id="ulul" class="songlist">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="songDetail.html">红颜如霜 </a> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">周杰伦</a> </li>
+
+                <li class="lp">
+                  04:23 </li>
+              </ul>
+              <ul id="ulul" class="songlist">
+                <!-- <li class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></li> -->
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="#">爱在西元前 </a> <i class="mv"></i> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">周杰伦</a> </li>
+
+                <li class="lp">03:54</li>
+              </ul>
+              <ul id="ulul" class="songlist">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="#">以父之名 </a> <i class="mv"></i> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">周杰伦</a> </li>
+
+                <li class="lp">05:20</li>
+              </ul>
+              <ul id="ulul" class="songlist">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="#">龙卷风 </a><i class="mv"></i> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">周杰伦</a> </li>
+
+                <li class="lp">04:30</li>
+              </ul>
+              <ul id="ulul" class="songlist">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="#">反方向的钟</a> <i class="mv"></i> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+
+                <li><a href="#">周杰伦</a> </li>
+
+                <li class="lp">04:46</li>
+              </ul>
+              <ul id="ulul" class="songlist">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="#">搁浅 </a> <i class="mv"></i> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">周杰伦</a> </li>
+
+                <li class="lp">04:06</li>
+              </ul>
+              <ul id="ulul" class="songlist">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="#">蒲公英的约定 </a> <i class="mv"></i> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">周杰伦</a> </li>
+
+                <li class="lp">04:12</li>
+              </ul>
+              <ul id="ulul" class="songlist">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="#">最长的电影 </a> <i class="mv"></i> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">周杰伦</a> </li>
+
+                <li class="lp">03:29</li>
+              </ul>
+              <ul id="ulul" class="songlist">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="#">爷爷泡的茶 </a> <i class="mv"></i> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">周杰伦</a> </li>
+
+                <li class="lp">03:15</li>
+              </ul>
+              <ul id="ulul" class="songlist">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="#">简单爱 </a> <i class="mv"></i> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">周杰伦</a> </li>
+                <li class="lp">04:30</li>
+              </ul>
+              <ul id="ulul" class="songlist">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="#">简单爱 </a> <i class="mv"></i> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">周杰伦</a> </li>
+                <li class="lp">04:30</li>
+              </ul>
+              <ul id="ulul" class="songlist">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="#">简单爱 </a> <i class="mv"></i> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">周杰伦</a> </li>
+                <li class="lp">04:30</li>
+              </ul>
+              <ul id="ulul" class="songlist">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="#">简单爱 </a> <i class="mv"></i> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">周杰伦</a> </li>
+                <li class="lp">04:30</li>
+              </ul>
+              <ul id="ulul" class="songlist">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="#">简单爱 </a> <i class="mv"></i> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">周杰伦</a> </li>
+                <li class="lp">04:30</li>
+              </ul>
+              <ul id="ulul" class="songlist">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="#">简单爱 </a> <i class="mv"></i> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">周杰伦</a> </li>
+                <li class="lp">04:30</li>
+              </ul>
+              <ul id="ulul" class="songlist">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="#">简单爱 </a> <i class="mv"></i> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">周杰伦</a> </li>
+                <li class="lp">04:30</li>
+              </ul>
+              <ul id="ulul" class="songlist">
+                <li>
+                  <div class="songlist__edit"><input type="checkbox" class="songlist__checkbox"></div>
+                </li>
+                <li id="xh" class="songlist_c1">1</li>
+                <li><a href="#">简单爱 </a> <i class="mv"></i> <i class="vip"></i>
+                  <div class="opreta">
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-24gl-play"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-tianjia"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-xiazai"></span></a>
+                    </div>
+                    <div class="lop">
+                      <a href="#"><span class="iconfont icon-qingkong"></span></a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">周杰伦</a> </li>
+                <li class="lp">04:30</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <div class="song_info">
+          <a class="gh" href="#"><img src="img/T002R300x300M0000042cH172YJ0mz_3.webp" alt=""><img class="cp"
+              src="img/cp.png" alt=""></a>
+          <div>
+            <p>歌曲名：<a href="#">红颜如霜</a></p>
+          </div>
+          <div>
+            <p>歌手：<a href="#">周杰伦</a></p>
+          </div>
+          <div>
+            <p>专辑：<a href="#">最伟大的作品</a></p>
+          </div>
+          <div class="song_info_box" id="js_lyric_box">
+            <div class="song_info_inner" id="qrc_ctn">
+              <p class=""><span>红颜如霜 - 周杰伦</span></p>
+              <p class=""><span>词：方文山</span></p>
+              <p class=""><span>曲：周杰伦</span></p>
+              <p class=""><span>信札拆封谁为难 不过寥寥数行</span></p>
+              <p class=""><span>娟秀字迹温柔 却感伤</span></p>
+              <p class=""><span>妳将心事 上了淡妆</span></p>
+              <p class=""><span>该说的话 却被仔细收藏</span></p>
+              <p class=""><span>暮色望垂杨 拱桥粼粼月光</span></p>
+              <p class=""><span>忆往事我走笔 也阑珊</span></p>
+              <p class=""><span>红颜如霜 凝结了过往</span></p>
+              <p class=""><span>芦苇花开岁已寒</span></p>
+              <p class=""><span>若霜又降路遥漫长</span></p>
+              <p class=""><span>墙外是谁在吟唱 凤求凰</span></p>
+              <p class=""><span>梨园台上 西皮二黄</span></p>
+              <p class=""><span>却少了妳 无人问暖</span></p>
+              <p class=""><span>谁在彼岸 天涯一方</span></p>
+              <p class=""><span>一句甚安勿念 妳说落笔太难</span></p>
+              <p class=""><span>窗外古琹幽兰 琴声平添孤单</span></p>
+              <p class=""><span>我墨走了几行 泪潸然落了款</span></p>
+              <p class=""><span>思念徒留纸上 一整篇被晕染</span></p>
+              <p class=""><span>一句甚安勿念 妳说落笔太难</span></p>
+              <p class=""><span>何故远走潇湘 妳却语多委婉</span></p>
+              <p class=""><span>走过萧瑟秋凉 等来芒草催黄</span></p>
+              <p class=""><span>而我遥望轻轻叹</span></p>
+              <p class=""><span>信札拆封谁为难 不过寥寥数行</span></p>
+              <p class=""><span>娟秀字迹温柔 却感伤</span></p>
+              <p class=""><span>妳将心事 上了淡妆</span></p>
+              <p class=""><span>该说的话 却被仔细收藏</span></p>
+              <p class=""><span>捎来的他乡 到底隔几条江</span></p>
+              <p class=""><span>一封信到底转了 几道弯</span></p>
+              <p class=""><span>缘分飘落 在山外山</span></p>
+              <p class=""><span>芦苇花开岁已寒</span></p>
+              <p class=""><span>若霜又降路遥漫长</span></p>
+              <p class=""><span>墙外是谁在吟唱 凤求凰</span></p>
+              <p class=""><span>梨园台上 西皮二黄</span></p>
+              <p class=""><span>却少了妳 无人问暖</span></p>
+              <p class=""><span>谁在彼岸 天涯一方</span></p>
+              <p class=""><span>一句甚安勿念 妳说落笔太难</span></p>
+              <p class=""><span>窗外古琹幽兰 琴声平添孤单</span></p>
+              <p class=""><span>我墨走了几行 泪潸然落了款</span></p>
+              <p class=""><span>思念徒留纸上 一整篇被晕染</span></p>
+              <p class=""><span>一句甚安勿念 妳说落笔太难</span></p>
+              <p class=""><span>何故远走潇湘 妳却语多委婉</span></p>
+              <p class=""><span>走过萧瑟秋凉 等来芒草催黄</span></p>
+              <p class=""><span>而我遥望轻轻叹</span></p>
+              <p class=""><span>一句甚安勿念 妳说落笔太难</span></p>
+              <p class=""><span>妳说落笔太难</span></p>
+              <p class=""><span>窗外古琹幽兰 琴声平添孤单</span></p>
+              <p class=""><span>琴声平添孤单</span></p>
+              <p class=""><span>我墨走了几行 泪潸然落了款</span></p>
+              <p class=""><span>泪潸然落了款</span></p>
+              <p class=""><span>思念徒留纸上 一整篇被晕染</span></p>
+              <p class=""><span>一句甚安勿念 妳说落笔太难</span></p>
+              <p class=""><span>何故远走潇湘 妳却语多委婉</span></p>
+              <p class=""><span>走过萧瑟秋凉 等来芒草催黄</span></p>
+              <p class=""><span>而鱼雁不再往返</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="player__ft">
+        <div class="player__bd">
+          <audio id="music" autoplay src="img/vi/C400001KhHrT4Mv4pd.mp3">
+          </audio>
+          <div class="bnbn">
+            <a id="befores" href="#"><img class="minio" src="img/syq.png" alt=""></a>
+            <a id="btn" href="#"><img id="bpzt" class="minio" src="img/bp.png" alt=""></a>
+            <a id="nexts" href="#"><img class="minio" src="img/xyq.png" alt=""></a>
+          </div>
+          <div class="player_music">
+            <div class="player_music__info" style="padding-right: 90px;"><a title="Back at One" target="_blank"
+                rel="noopener noreferrer" href="/n/ryqq/songDetail/001KhHrT4Mv4pd?">红颜如霜</a> - <a
+                class="playlist__author" title="周杰伦" href="/n/ryqq/singer/0025NhlN2yWrP4">周杰伦</a></div>
+            <div class="player_music__time">
+              <p> 00:00 / 04:17</p>
+            </div>
+            <div class="player_progress">
+              <div class="player_progress__inner">
+                <div class="player_progress__load" style="width: 100.07%; margin-left: 0px;"></div>
+                <div class="player_progress__play" style="width: 5.62%; margin-left: 0px;"><i
+                    class="player_progress__dot"></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="bnbn2">
+            <a href="#"><span class="iconfont2 icon-danquxunhuan"></span></a>
+            <a href="#"><span class="iconfont2 icon-aixin_shixin"></span></a>
+            <a href="#"><span class="iconfont2 icon-xiazai"></span></a>
+            <a href="#"><span class="iconfont2 icon-pinglun"></span></a>
+            <a href="#"><span class="iconfont2 icon-shengyin"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <script src="js/script_play.js"></script>
+</body>
+
+</html>
